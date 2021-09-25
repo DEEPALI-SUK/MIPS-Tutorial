@@ -23,7 +23,6 @@
      lw $t5, arr($zero)
      
      li $v0,1
-     sw $s0, arr($t0)
      addi $a0,$t5,0 # 4 bits
      syscall
      
